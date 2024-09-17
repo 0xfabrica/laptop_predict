@@ -22,7 +22,7 @@ Este proyecto utiliza un modelo de Random Forest para predecir el precio de port
 2. Crea un entorno virtual e instala las bibliotecas requeridas:
 ``pip install requirements.txt``
 <br></br>
-5. ## Uso
+## Uso
 
 1. Carga el archivo `laptop_prices.csv` en tu entorno.
 2. Ejecuta el código del notebook para entrenar el modelo de Random Forest.
