@@ -20,16 +20,14 @@ Este proyecto utiliza un modelo de Random Forest para predecir el precio de port
 
 1. Clona este repositorio.
 2. Crea un entorno virtual e instala las bibliotecas requeridas:
-**pip install requirements.txt**
-4.
+``pip install requirements.txt``
+<br></br>
 5. ## Uso
 
 1. Carga el archivo `laptop_prices.csv` en tu entorno.
 2. Ejecuta el código del notebook para entrenar el modelo de Random Forest.
 3. Utiliza la función `predecir_precio()` para obtener predicciones de precios.
 
-``python def predecir_precio(): numero_dato = int(input("Introduce el número de dato: ")) prediccion = model.predict([x.iloc[numero_dato]]) print(f"La predicción del precio para el dato {numero_dato} es: {prediccion[0]}")
-predecir_precio()``
 ## Datos
 
 El conjunto de datos utilizado en este proyecto contiene información sobre diferentes portátiles, incluyendo marca, modelo, tipo, sistema operativo, pantalla, procesador, memoria, almacenamiento, tarjeta gráfica y precio.
